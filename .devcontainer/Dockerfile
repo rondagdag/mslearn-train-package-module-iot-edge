@@ -6,7 +6,7 @@
 #Python Versions
 #FROM python:3
 #Python Anaconda
-FROM continuumio/anaconda3:2020.11
+FROM continuumio/anaconda3
 
 # Avoid warnings by switching to noninteractive
 ENV DEBIAN_FRONTEND=noninteractive
